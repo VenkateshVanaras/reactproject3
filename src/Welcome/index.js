@@ -1,8 +1,10 @@
+import './index.css'
+
 const Welcome = () => {
     return (
         <div>
-            <h1> This pape is about react js </h1>
-            <p> Run the file if everything is fine. </p>
+            <h1 className='heading'> This pape is about react js </h1>
+            <p className='para'> Run the file if everything is fine. </p>
         </div>
     )
 }
